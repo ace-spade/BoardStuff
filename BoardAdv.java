@@ -440,7 +440,182 @@ public class BoardAdv
            piecePosition[9][9] = "green";
            movePiece(9, 9, 9, 9);
        }
-       if(level==20)
+        if(points>250)
+        {
+            //makes the entire board empty
+           for (int i = 0; i < 9; i++) {
+
+               randX = ((int) (Math.random() * 9));
+               randY = ((int) (Math.random() * 9));
+               for (int j = 0; j < 9; j++) {
+                   piecePosition[i][j] = "empty";
+               }
+           }
+           int lastX,lastY;
+           lastX=(int)(Math.random()*9);
+           lastY=(int)(Math.random()*9);
+           piecePosition[lastX][lastY]="red";
+           movePiece(lastX,lastY,lastX,lastY);
+           lastX=(int)(Math.random()*9);
+           lastY=(int)(Math.random()*9);
+           piecePosition[lastX][lastY]="red";
+           movePiece(lastX,lastY,lastX,lastY);
+           lastX=(int)(Math.random()*9);
+           lastY=(int)(Math.random()*9);
+
+           piecePosition[lastX][lastY]="red";
+           movePiece(lastX,lastY,lastX,lastY);
+           lastX=(int)(Math.random()*9);
+           lastY=(int)(Math.random()*9);
+
+           piecePosition[lastX][lastY]="red";
+           movePiece(lastX,lastY,lastX,lastY);
+           lastX=(int)(Math.random()*9);
+           lastY=(int)(Math.random()*9);
+            
+           piecePosition[5][8]="cyan";
+           movePiece(5,8,5,8);
+           
+           piecePosition[0][5] = "yellow";
+           movePiece(0, 5, 0, 5);
+           //puts the goal at 9,9
+           piecePosition[9][9] = "green";
+           movePiece(9, 9, 9, 9);
+            
+        }
+        if(points>500)
+        {
+            //makes the entire board empty
+           for (int i = 0; i < 9; i++) {
+
+               randX = ((int) (Math.random() * 9));
+               randY = ((int) (Math.random() * 9));
+               for (int j = 0; j < 9; j++) {
+                   piecePosition[i][j] = "empty";
+               }
+           }
+           int lastX,lastY;
+           lastX=(int)(Math.random()*9);
+           lastY=(int)(Math.random()*9);
+           piecePosition[lastX][lastY]="red";
+           movePiece(lastX,lastY,lastX,lastY);
+           lastX=(int)(Math.random()*9);
+           lastY=(int)(Math.random()*9);
+           piecePosition[lastX][lastY]="red";
+           movePiece(lastX,lastY,lastX,lastY);
+           lastX=(int)(Math.random()*9);
+           lastY=(int)(Math.random()*9);
+
+           piecePosition[lastX][lastY]="red";
+           movePiece(lastX,lastY,lastX,lastY);
+           lastX=(int)(Math.random()*9);
+           lastY=(int)(Math.random()*9);
+
+           piecePosition[lastX][lastY]="red";
+           movePiece(lastX,lastY,lastX,lastY);
+           lastX=(int)(Math.random()*9);
+           lastY=(int)(Math.random()*9);
+        }
+        if(points>750)
+        {
+            //makes the entire board empty
+           for (int i = 0; i < 9; i++) {
+
+               randX = ((int) (Math.random() * 9));
+               randY = ((int) (Math.random() * 9));
+               for (int j = 0; j < 9; j++) {
+                   piecePosition[i][j] = "empty";
+               }
+           }
+           int lastX,lastY;
+           lastX=(int)(Math.random()*9);
+           lastY=(int)(Math.random()*9);
+           piecePosition[lastX][lastY]="red";
+           movePiece(lastX,lastY,lastX,lastY);
+           lastX=(int)(Math.random()*9);
+           lastY=(int)(Math.random()*9);
+           piecePosition[lastX][lastY]="red";
+           movePiece(lastX,lastY,lastX,lastY);
+           lastX=(int)(Math.random()*9);
+           lastY=(int)(Math.random()*9);
+
+           piecePosition[lastX][lastY]="red";
+           movePiece(lastX,lastY,lastX,lastY);
+           lastX=(int)(Math.random()*9);
+           lastY=(int)(Math.random()*9);
+
+           piecePosition[lastX][lastY]="red";
+           movePiece(lastX,lastY,lastX,lastY);
+           lastX=(int)(Math.random()*9);
+           lastY=(int)(Math.random()*9);
+        }
+        if(points>900)
+        {
+            //makes the entire board empty
+           for (int i = 0; i < 9; i++) {
+
+               randX = ((int) (Math.random() * 9));
+               randY = ((int) (Math.random() * 9));
+               for (int j = 0; j < 9; j++) {
+                   piecePosition[i][j] = "empty";
+               }
+           }
+           int lastX,lastY;
+           lastX=(int)(Math.random()*9);
+           lastY=(int)(Math.random()*9);
+           piecePosition[lastX][lastY]="red";
+           movePiece(lastX,lastY,lastX,lastY);
+           lastX=(int)(Math.random()*9);
+           lastY=(int)(Math.random()*9);
+           piecePosition[lastX][lastY]="red";
+           movePiece(lastX,lastY,lastX,lastY);
+           lastX=(int)(Math.random()*9);
+           lastY=(int)(Math.random()*9);
+
+           piecePosition[lastX][lastY]="red";
+           movePiece(lastX,lastY,lastX,lastY);
+           lastX=(int)(Math.random()*9);
+           lastY=(int)(Math.random()*9);
+
+           piecePosition[lastX][lastY]="red";
+           movePiece(lastX,lastY,lastX,lastY);
+           lastX=(int)(Math.random()*9);
+           lastY=(int)(Math.random()*9);
+        }
+        if(points>990)
+        {
+            //makes the entire board empty
+           for (int i = 0; i < 9; i++) {
+
+               randX = ((int) (Math.random() * 9));
+               randY = ((int) (Math.random() * 9));
+               for (int j = 0; j < 9; j++) {
+                   piecePosition[i][j] = "empty";
+               }
+           }
+           int lastX,lastY;
+           lastX=(int)(Math.random()*9);
+           lastY=(int)(Math.random()*9);
+           piecePosition[lastX][lastY]="red";
+           movePiece(lastX,lastY,lastX,lastY);
+           lastX=(int)(Math.random()*9);
+           lastY=(int)(Math.random()*9);
+           piecePosition[lastX][lastY]="red";
+           movePiece(lastX,lastY,lastX,lastY);
+           lastX=(int)(Math.random()*9);
+           lastY=(int)(Math.random()*9);
+
+           piecePosition[lastX][lastY]="red";
+           movePiece(lastX,lastY,lastX,lastY);
+           lastX=(int)(Math.random()*9);
+           lastY=(int)(Math.random()*9);
+
+           piecePosition[lastX][lastY]="red";
+           movePiece(lastX,lastY,lastX,lastY);
+           lastX=(int)(Math.random()*9);
+           lastY=(int)(Math.random()*9);
+        }
+       if(points ==1000)
        {
 
 
